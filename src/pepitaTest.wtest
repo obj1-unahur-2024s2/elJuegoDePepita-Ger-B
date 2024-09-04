@@ -9,10 +9,10 @@ describe "Tests de Pepita" {
 		game.clear()
 	}
 
-//	test "Al comer pepita aumenta su energia" {
-//		pepita.come(manzana)
-//		assert.equals(140, pepita.energia())
-//	}
+	test "Al comer pepita aumenta su energia" {
+		pepita.come(manzana)
+		assert.equals(140, pepita.energia())
+	}
 
 	test "Al volar pepita pierde energia" {
 		pepita.vola(1)
